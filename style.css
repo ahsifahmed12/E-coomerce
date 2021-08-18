@@ -1,0 +1,1445 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full_website{
+    height: 0px;
+   margin-top:-27px;
+   margin-bottom: 0px;
+   
+}
+.header{
+    background-image: radial-gradient(white, crimson);
+    width: 100%;
+    height: 242px;
+    padding: 185px 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+.header h2{
+    font-family: 'Bangers', cursive;
+    position: relative;
+    top: -167px;
+    left: -565px;
+    font-size: 43px;
+}
+.menu li{
+    font-family: 'Merienda', cursive;
+    display: inline-block;
+    margin-left: 14px;
+    position: relative;
+    top: 46px;
+    left: 982px;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 11;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+.menu li a:hover{
+    color: white;
+}
+.header h3{
+    font-size: 45px;
+    position: relative;
+    top: -60px;
+    left: -379px
+}
+.header p{
+    padding: 450px;
+    display: inline-block;
+    position: relative;
+    top: -513px;
+    left: -387px;
+    font-size: 20px;
+    z-index: 1;
+}
+.header button{
+    position: relative;
+    top: -1286px;
+    left: -225px;
+    background: #dc143c;
+    padding-right: 40px;
+    padding-left: 31px;
+    padding-bottom: 6px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: 'Merienda', cursive;
+    z-index: 22;
+}
+button:hover{
+    background: #9c0b17;
+}
+.header button i{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+.header img{
+    width: 323px;
+    height: 356px;
+    position: relative;
+    top: -1266px;
+    left: 308px;
+}
+.container{
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+    border-bottom: 5px solid #de2046;
+    text-align: center;
+    margin:0px auto;
+    width: 1224px;
+    position: relative;
+    top: 40px;
+}
+/* maindiv */
+.maindiv{
+    position: relative;
+    top: 0px;
+    left: 246px;
+    font-family: 'Merienda', cursive;
+}
+.maindiv h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv sup{color: #de2046;}
+/* hover effect */
+.hoverdiv{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv:hover .hoverinnter{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv1 */
+.maindiv1{
+    position: relative;
+    top: -373px;
+    left: 627px;
+    font-family: Merienda, cursive;
+}
+.maindiv1 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv1 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv1 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv1{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv1 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter1 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter1 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter1 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter1{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv1:hover .hoverinnter1{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv2 */
+.maindiv2{
+    position: relative;
+    top: -748px;
+    left: 1008px;
+    font-family: 'Merienda', cursive;
+}
+.maindiv2 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv2 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv2 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv2{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv2 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter2 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter2 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter2 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter2{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv2:hover .hoverinnter2{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv3 */
+.maindiv3{
+    position: relative;
+    top: -698px;
+    left: 246px;
+    font-family: 'Merienda', cursive;
+}
+.maindiv3 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv3 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv3 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv3{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv3 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter3 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter3 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter3 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter3{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv3:hover .hoverinnter3{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv4 */
+.maindiv4{
+    position: relative;
+    top: -1072px;
+    left: 627px;
+    font-family: Merienda, cursive;
+}
+.maindiv4 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv4 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv4 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv4{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv4 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter4 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter4 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter4 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter4{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv4:hover .hoverinnter4{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv5 */
+.maindiv5{
+    position: relative;
+    top: -1446px;
+    left: 1008px;
+    font-family: Merienda, cursive;
+}
+.maindiv5 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv5 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv5 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv5{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv5 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter5 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter5 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter5 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter5{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv5:hover .hoverinnter5{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv6 */
+.maindiv6{
+    position: relative;
+    top: -1406px;
+    left:246px;
+    font-family: Merienda, cursive;
+}
+.maindiv6 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv6 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv6 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv6{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv6 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter6 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter6 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter6 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter6{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv6:hover .hoverinnter6{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv7 */
+.maindiv7{
+    position: relative;
+    top: -1780px;
+    left: 627px;
+    font-family: Merienda, cursive;
+}
+.maindiv7 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv7 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv7 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv7{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv7 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter7 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter7 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter7 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter7{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv7:hover .hoverinnter7{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+.container1{
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+    border-bottom: 5px solid #de2046;
+    text-align: center;
+    margin: 0px auto;
+    width: 1224px;
+    position: relative;
+    top: -1575px
+}
+/* maindiv8 */
+.maindiv8{
+    position: relative;
+    top: -1618px;
+    left: 246px;
+    font-family: Merienda, cursive;
+}
+.maindiv8 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv8 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv8 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv8{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv8 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter8 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter8 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter8 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter8{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv8:hover .hoverinnter8{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv9 */
+.maindiv9{
+    position: relative;
+    top: -1992px;
+    left: 627px;
+    font-family: Merienda, cursive;
+}
+.maindiv9 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv9 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv9 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv9{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv9 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter9 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter9 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter9 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter9{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv9:hover .hoverinnter9{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+/* maindiv10*/
+.maindiv10{
+    position: relative;
+    top: -2361px;
+    left: 1016px;
+    font-family: Merienda, cursive;
+}
+.maindiv10 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv10 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv10 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv10{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv10 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter10 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter10 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter10 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter10{
+    position: absolute;
+    top: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv10:hover .hoverinnter10{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+    
+}
+/* maindiv11*/
+.maindiv11{
+    position: relative;
+    top: -2336px;
+    left: 244px;
+    font-family: Merienda, cursive;
+}
+.maindiv11 h2,p{
+    position: relative;
+    top: 373px;
+    left: 0px;
+    font-size: 26px;
+}
+.maindiv11 i{
+    position: relative;
+    top: 374px;
+    left: -8px;
+    font-size: 21px;
+    margin-left: 8px;
+    color: #de2046;
+}
+.maindiv11 sup{color: #de2046;}
+/* hover effect */
+.hoverdiv11{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.hoverdiv11 img{
+    width: 270px;
+    height: 270px;
+}
+.hoverinnter11 a{
+    text-decoration: none;
+    color: white;
+    background: crimson;
+    padding: 10px 18px;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 136px;
+    
+}
+.hoverinnter11 a:hover{
+    color: rgb(240, 236, 18);
+}
+.hoverinnter11 i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: white;
+}
+.hoverinnter11{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.2);
+    visibility: hidden;
+    transition: .5s;
+     z-index: -1;
+}
+.hoverdiv11:hover .hoverinnter11{
+    height: 100%;
+    width:100%;
+    right: 0;
+    visibility: visible;
+    z-index: 1;
+}
+.container2{
+    background-image: radial-gradient(white, crimson);
+    width: 100%;
+    height: 150px;
+    padding: 185px 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top:-2144px;
+}
+
+.container2 h2{
+    font-family: 'Bangers', cursive;
+    position: relative;
+    top: -120px;
+    left: -376px;
+    font-size: 71px;
+}
+.container2 h3{
+    font-size: 45px;
+    position: relative;
+    top: -110px;
+    left: -398px;
+}
+.container2 p{
+    padding: 450px;
+    display: inline-block;
+    position: relative;
+    top: -542px;
+    left: -387px;
+    font-size: 20px;
+}
+button{
+    position: relative;
+    top: -1301px;
+    left: -230px;
+    background: #dc143c;
+    padding-right: 40px;
+    padding-left: 31px;
+    padding-bottom: 6px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: 'Merienda', cursive;
+    
+}
+button:hover{
+    background: #9c0b17;
+}
+.container2 button i{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+.container2 img{
+    width: 323px;
+    height: 356px;
+    position: relative;
+    top: -1325px;
+    left: 308px;
+}
+.container3{
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+    border-bottom: 5px solid #de2046;
+    text-align: center;
+    margin: 0px auto;
+    width: 1224px;
+    position: relative;
+    top: -2094px;
+}
+/* our customer1 */
+.footer1{
+    width: 290px;
+    height: 200px;
+    padding: 50px;
+    background: #eeeeee;
+    position: relative;
+    top: -1964px;
+    left: 149px;
+    font-family: 'Merienda', cursive;
+    transition: .5s;
+}
+.footer1 p{
+    font-size: 17px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: -24px;
+    left: -17px;
+}
+.footer1 h2{
+    font-size: 20px;
+    position: relative;
+    top: -22px;
+    left:117px;
+    color: #eb2839;
+}
+.footer1 h3{
+    font-size: 16px;
+    position: relative;
+    top: -22px;
+    left: 140px;
+}
+.footer1 img{
+    width: -361px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -366px;
+    left: 80px;
+}
+.footer1 p::before{
+    content: '\f10e';
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 0px;
+    left: 275px;
+    opacity: .5;
+}
+.footer1 p::after{
+    content: '\f10d';
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 24px;
+    left: -91px;
+    color: #000000;
+    opacity: .5;
+}
+.footer1:hover{
+    background-color: #eb2839;
+    transform:scale(1.1) rotate(360deg);
+    color: white;
+    opacity: 1;
+}
+/* our customer2 */
+.footer2{
+    width: 290px;
+    height: 200px;
+    padding: 50px;
+    background: #eeeeee;
+    position: relative;
+    top: -2263px;
+    left: 569px;
+    font-family: 'Merienda', cursive;
+    transition: .5s;
+}
+.footer2 p{
+    font-size: 17px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: -24px;
+    left: -17px;
+}
+.footer2 h2{
+    font-size: 20px;
+    position: relative;
+    top: -22px;
+    left:117px;
+    color: #eb2839;
+}
+.footer2 h3{
+    font-size: 16px;
+    position: relative;
+    top: -22px;
+    left: 140px;
+}
+.footer2 img{
+    width: -361px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -366px;
+    left: 80px;
+}
+.footer2 p::before{
+    content: '\f10e';
+    color: #767675;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 0px;
+    left: 275px;
+}
+.footer2 p::after{
+    content: '\f10d';
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 24px;
+    left: -91px;
+    color: #767675;
+}
+.footer2:hover{
+    background-color: #eb2839;
+    transform:scale(1.1) rotate(360deg);
+    color: white;
+}
+/* our customer3 */
+.footer3{
+    width: 290px;
+    height: 200px;
+    padding: 50px;
+    background: #eeeeee;
+    position: relative;
+    top: -2563px;
+    left: 988px;
+    font-family: 'Merienda', cursive;
+    transition: .5s;
+}
+.footer3 p{
+    font-size: 17px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: -24px;
+    left: -17px;
+}
+.footer3 h2{
+    font-size: 20px;
+    position: relative;
+    top: -22px;
+    left:90px;
+    color: #eb2839;
+}
+.footer3 h3{
+    font-size: 16px;
+    position: relative;
+    top: -22px;
+    left: 126px;
+}
+.footer3 img{
+    width: -361px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -366px;
+    left: 80px;
+}
+.footer3 p::before{
+    content: '\f10e';
+    color: #767675;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 0px;
+    left: 275px;
+}
+.footer3 p::after{
+    content: '\f10d';
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 24px;
+    left: -91px;
+    color: #767675;
+    transform: rotate(180deg);
+}
+.footer3:hover{
+    background-color: #eb2839;
+    transform:scale(1.1) rotate(360deg);
+    color: white;
+}
+/* brand img */
+.img1{
+    position: relative;
+    top: -2514px;
+    left: 231px;
+    opacity: .3;
+    transition: 0.5s;
+}
+.img1:hover{
+   opacity: 1;
+}
+.img2{
+    position: relative;
+    top: -2669px;
+    left: 449px;
+    opacity: .3;
+    transition: 0.5s;
+}
+.img2:hover{
+   opacity: 1;
+}
+.img3{
+    position: relative;
+    top: -2824px;
+    left: 659px;
+    opacity: .3;
+    transition: 0.5s;
+}
+.img3:hover{
+   opacity: 1;
+}
+.img4{
+    position: relative;
+    top: -2978px;
+    left: 898px;
+    opacity: .3;
+    transition: 0.5s;
+}
+.img4:hover{
+   opacity: 1;
+}
+.img5{
+    position: relative;
+    top: -3133px;
+    left: 1129px;
+    opacity: .3;
+    transition: 0.5s;
+}
+.img5:hover{
+   opacity: 1;
+}
+/* info */
+.footer{
+    background: black;
+    color: white;
+    padding: 100px;
+    position: relative;
+    top: -3065px;
+    height: 136px;
+}
+.aboutUs{
+    width: 340px;
+    height: 343px;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    left: -36px;
+    font-family: 'Merienda', cursive;
+}
+.aboutUs h2{
+    font-size: 22px;
+}
+.aboutUs p{
+    position: relative;
+    top: 3px;
+    font-size: 11px;
+}
+/* social menu */
+.socialMenu{
+    position: relative;
+    top: -185px;
+    left: -523px;
+}
+.socialMenu ul{
+    text-align: center;
+}
+.socialMenu ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.socialMenu ul li a{
+    color: #ffffff;
+    background: #000000;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.socialMenu ul li a:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+/* main menu */
+.mainmenu ul li{
+    padding: 10px;
+    position: relative;
+    top: -459px;
+    left: 400px;
+    list-style-type: none;
+    font-family: 'Merienda', cursive;
+}
+.mainmenu ul li::before{
+    content: '\f054';
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    
+
+} 
+.mainmenu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 17px;
+    transition: .5s;
+}
+.mainmenu ul li a:hover{
+    color: #eb2839;
+    
+}
+.mainmenu h2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -467px;
+    left: 400px;
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+}
+/* main menu1 */
+.mainmenu1 ul li{
+    padding: 10px;
+    position: relative;
+    top: -704px;
+    left: 727px;
+    list-style-type: none;
+    font-family: 'Merienda', cursive;
+}
+.mainmenu1 ul li::before{
+    content: '\f054';
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    
+
+} 
+.mainmenu1 ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 17px;
+    transition: .5s;
+}
+.mainmenu1 ul li a:hover{
+    color: #eb2839;
+    
+}
+.mainmenu1 h2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -713px;
+    left: 727px;
+    font-size: 20px;
+}
+/* main menu2 */
+.mainmenu2 ul li{
+    padding: 10px;
+    position: relative;
+    top: -863px;
+    left: 1055px;
+    list-style-type: none;
+    font-family: 'Merienda', cursive;
+}
+.mainmenu2 ul li i{
+    padding: 3px;
+}
+.mainmenu2 ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 17px;
+    transition: .5s;
+}
+.mainmenu2 ul li:hover{
+    color: #eb2839;
+    
+}
+.mainmenu2 h2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -869px;
+    left: 1065px;
+    font-size: 20px;
+}
+.footer-bottom{
+    position: relative;
+    top: -1173px;
+    left: 556px;
+}
+
+.footer-bottom p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
